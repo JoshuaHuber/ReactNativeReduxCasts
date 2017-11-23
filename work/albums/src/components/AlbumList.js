@@ -13,15 +13,14 @@ const styles = {
     }
 }
 
-class ViewList extends Component  {
-    constructor(props){
-        super(props)
+class AlbumList extends Component  {
+    componentWillMount() {
+        console.log('cwm AlbumList')
     }
     render() {
-        // const {} = props;
         const { viewStyles, textStyles } = styles;
-
-        return(
+        // const {} = props;
+        return (
             <View style={ viewStyles }>
                 <Text style={ textStyles }>
                     Album List !!!
@@ -31,4 +30,4 @@ class ViewList extends Component  {
     }
 }
 
-export default ViewList
+export default AlbumList
