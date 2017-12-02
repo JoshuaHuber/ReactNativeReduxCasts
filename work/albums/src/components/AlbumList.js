@@ -15,7 +15,6 @@ const styles = {
 
 class AlbumList extends Component  {
     componentWillMount() {
-        console.log('cwm AlbumList')
     }
     render() {
         const { viewStyles, textStyles } = styles;
