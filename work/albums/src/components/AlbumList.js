@@ -22,7 +22,6 @@ class AlbumList extends Component  {
     }
     render() {
         const { viewStyles, textStyles } = styles;
-        // const {} = props;
         return (
             <View style={ viewStyles }>
                 <Text style={ textStyles }>
